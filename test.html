@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body>
+<button onclick="testdhtml()">hello</button>
+<script>
+function testdhtml() {
+	var iside = window.external.IsRobloxIDE;
+	if (iside) {
+		document.getElementById("changethistext").innerHTML = "changed!"
+	}
+}
+</script>
+<p id="changethistext">this will change when the button is pressed</p>
+</body>
+</html>
